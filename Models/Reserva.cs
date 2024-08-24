@@ -21,10 +21,10 @@ namespace DesafioProjetoHospedagem.Models
             }
             else
             {
-                throw new Exception("A quantidade de hóspedes não pode execeder a capacidade de suite");
+                throw new Exception("A quantidade de hóspedes não pode exceder a capacidade de suite");
             }
         }
-
+            //"Implementação a quantidade de hóspedes não pode exceder a capacidade de suite"
         public void CadastrarSuite(Suite suite)
         {
             Suite = suite;
